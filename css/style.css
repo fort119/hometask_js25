@@ -1,0 +1,55 @@
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #f1f1f1;
+  padding: 30px;
+}
+
+.slider-wrapper {
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.-hidden {
+  visibility: hidden;
+}
+
+button:hover {
+  background: goldenrod;
+}
+
+button:active {
+  background: #000;
+  color: #fff;
+}
+
+.slides {
+  width: 256px;
+  height: 256px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.line {
+  width: 1024px;
+  height: 256px;
+  left: 0;
+  display: flex;
+  position: relative;
+
+  transition: all ease 1s;
+}
+
+.slider-image {
+  width: 256px;
+  height: 256px;
+}
+
+.slider-next {
+  order: 1;
+}
